@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/app_dp_hundred_twenty"
+        android:gravity="center"
+        android:padding="@dimen/app_dp_five"
+        android:text="@string/login_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/app_dp_thirty" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="@dimen/app_dp_thirty"
+        android:layout_marginRight="@dimen/app_dp_thirty"
+        android:layout_marginTop="@dimen/app_dp_fifty"
+        android:background="@drawable/img_portrait_edt_input"
+        android:hint="@string/username"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:paddingBottom="@dimen/app_dp_ten"
+        android:paddingLeft="@dimen/app_dp_twelve"
+        android:paddingRight="@dimen/app_dp_twelve"
+        android:paddingTop="@dimen/app_dp_ten"
+        android:textSize="@dimen/app_dp_sixteen"
+        android:textCursorDrawable="@null"
+        android:imeOptions="actionGo" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="@dimen/app_dp_thirty"
+        android:layout_marginRight="@dimen/app_dp_thirty"
+        android:layout_marginTop="@dimen/app_dp_thirty"
+        android:background="@drawable/img_portrait_edt_input"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:paddingBottom="@dimen/app_dp_ten"
+        android:paddingLeft="@dimen/app_dp_twelve"
+        android:paddingRight="@dimen/app_dp_twelve"
+        android:paddingTop="@dimen/app_dp_ten"
+        android:textSize="@dimen/app_dp_sixteen"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:id="@+id/auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="@dimen/app_dp_thirty"
+        android:paddingBottom="@dimen/app_dp_ten"
+        android:paddingLeft="@dimen/app_dp_twelve"
+        android:paddingRight="@dimen/app_dp_twelve"
+        android:paddingTop="@dimen/app_dp_ten"
+        android:textSize="@dimen/app_dp_sixteen"
+        android:layout_marginLeft="@dimen/app_dp_thirty"
+        android:text="@string/auto_login" />
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auto_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/app_dp_thirty"
+        android:gravity="center"
+        android:padding="@dimen/app_dp_five"
+        android:background="@color/white"
+        android:text="@string/sign_in"
+        android:textColor="@color/black"
+        android:textSize="@dimen/app_dp_thirty" />
+
+
+</RelativeLayout>

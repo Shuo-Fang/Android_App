@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">智能广播</string>
+
+    <string name="login">登录</string>
+    <string name="login_text">WELcome</string>
+    <string name="username">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="sign_in">登录</string>
+    <string name="auto_login">自动登录</string>
+
+    <string name="main">主界面</string>
+    <string name="search">进行搜索</string>
+    <string name="all_area">全区</string>
+    <string name="area">分区</string>
+    <string name="sort">排序</string>
+
+    <string name="broadcast">广播</string>
+    <string name="file_broadcast">文件广播</string>
+    <string name="audio_broadcast">语音广播</string>
+    <string name="text_broadcast">文本广播</string>
+
+    <string name="emergency_broadcast">紧急广播</string>
+
+    <string name="setting">设置</string>
+    <string name="version">版本</string>
+    <string name="help">帮助</string>
+    <string name="change_user">切换账号</string>
+    <string name="sign_out">退出</string>
+
+</resources>

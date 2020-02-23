@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/activity_title"/>
+
+    <EditText
+        android:id="@+id/audio_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <Button
+            android:id="@+id/listen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="试听"
+            android:textSize="@dimen/app_dp_twenty"
+            android:layout_weight="5"/>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="send"
+            android:textSize="@dimen/app_dp_twenty"
+            android:layout_weight="5"/>
+
+        <Button
+            android:id="@+id/send_file"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="send_file"
+            android:textSize="@dimen/app_dp_twenty"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
